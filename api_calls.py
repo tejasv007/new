@@ -1,11 +1,9 @@
 import requests
 
-# Step 1: Define your details
 name = "John Doe"
 regNo = "REG12347"
 email = "john@example.com"
 
-# Determine which question to solve based on regNo
 last_digit = int(regNo[-1])
 if last_digit % 2 == 0:
     print("Even digit: Solve Q 2")
